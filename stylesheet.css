@@ -1,0 +1,100 @@
+body{
+    transition: width 3s;
+}
+.header{
+    font-family: "Amiri Quran", serif;
+    margin-right: -6px;
+    margin-left: -6px;
+    margin-top: -8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home{
+    margin-left: 700px;
+    font-size: xx-large;
+    transform: translateY(-20%);
+}
+.contact{
+    margin-left: 50px;
+    font-size: xx-large;
+    transform: translateY(-20%);
+}
+.login{
+    margin-left: 50px;
+    font-size: xx-large;
+    transform: translateY(-20%);
+}
+.pro{
+    margin-left: 40px;
+
+    transform: translateY(-10%);
+}
+.img{
+    transform: translateY(5%);
+}
+.topic{
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-size: xxx-large;
+    transform: translateY(-25%);
+
+}
+#tops{
+
+    font-family: "Cairo Play", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    transform: translateY(-25%);
+    background-color: white;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#tops:hover{
+    animation: mymove 800ms running;
+}
+@keyframes mymove {
+    0%   {background-color: white;}
+    100% {background-color: rgba(9, 243, 208, 0.22);}
+}
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: 350px;
+    }
+    .home{
+        margin-left: 0px;
+        font-size: xx-large;
+        transform: translateY(-50%);
+    }
+    .contact{
+        margin-left: 0px;
+        font-size: xx-large;
+        transform: translateY(-70%);
+    }
+    .login{
+        margin-left: 0px;
+        font-size: xx-large;
+        transform: translateY(-90%);
+    }
+    .pro{
+        margin-left: 0px;
+
+        transform: translateY(-100%);
+    }
+    .topic{
+        font-family: "Reem Kufi Ink", sans-serif;
+        font-weight: 400;
+        font-size: xxx-large;
+        transform: translateY(-25%);
+        margin-bottom: 60px;
+
+    }
+}
